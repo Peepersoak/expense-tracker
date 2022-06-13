@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+.expense-filter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expense-filter-label {
+  color: white;
+  font-family: "Nerko One", cursive;
+}
+
+.expense-filter-filter {
+  background: #df81ff;
+  color: white;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+
+.expense-filter-filter-label {
+  color: white;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.currency-option {
+  background: #df81ff;
+  color: white;
+  padding: 0px 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .currency-option {
+    font-size: 20px;
+    padding: 5px 20px;
+  }
+  .expense-filter-filter-label {
+    font-family: "Nerko One", cursive;
+    font-size: 1.5em;
+  }
+}

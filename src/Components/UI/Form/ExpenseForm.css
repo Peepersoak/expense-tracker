@@ -1,0 +1,70 @@
+.form-title,
+.form-date-amount-wrapper,
+.form-btn-wrapper {
+  margin: 30px 0px;
+}
+
+.form-title input {
+  width: 100%;
+  font-size: 26px;
+  background-color: #59527c;
+  border: none;
+  color: white;
+}
+
+.form-title label,
+.form-date-amount-wrapper label {
+  color: white;
+  font-size: 26px;
+}
+
+.form-date-amount-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-date-amount-wrapper > div {
+  width: 45%;
+}
+
+.form-date-amount-wrapper input {
+  width: 100%;
+  font-size: 26px;
+  background-color: #59527c;
+  border: none;
+  color: white;
+}
+
+.form-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-btn-wrapper button {
+  background: #df81ff;
+  font-size: 26px;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  width: 45%;
+}
+
+.form-btn-wrapper button:hover {
+  cursor: pointer;
+}
+
+.form-btn-wrapper button:active {
+  background: #b95fd7;
+}
+
+@media screen and (max-width: 500px) {
+  .form-btn-wrapper button {
+    font-size: 16px;
+  }
+  .form-date-amount-wrapper label {
+    font-size: 16px;
+  }
+}

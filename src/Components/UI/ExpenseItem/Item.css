@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+.item-card {
+  background: #403d50;
+  padding: 15px;
+  box-shadow: 0px 6px 5px 0px #272436;
+}
+
+.item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-wrapper h2,
+.item-amount {
+  margin: 0;
+  color: white;
+  font-family: "Titan One", cursive;
+  font-weight: 500;
+}
+
+.item-date {
+  color: white;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}

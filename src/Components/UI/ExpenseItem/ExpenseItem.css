@@ -1,0 +1,14 @@
+.ul-wrapper {
+  list-style-type: none;
+  padding: 0;
+}
+
+.li-wrapper {
+  margin-bottom: 15px;
+}
+
+.noExpense {
+  color: white;
+  text-align: center;
+  font-family: "source sans pro", sans-serif;
+}

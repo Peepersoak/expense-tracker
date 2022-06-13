@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+.main-wrapper-date {
+  text-align: left;
+  color: white;
+  font-family: "Nerko One", cursive;
+  font-size: 50px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #df81ff;
+}
+
+.total-monthly-expense__label {
+  color: white;
+  margin-top: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.add-expense-btn {
+  background: #df81ff;
+  color: white;
+  padding: 15px 35px;
+  font-size: 40px;
+  border-radius: 19px;
+  transition: all 250ms;
+  border: none;
+}
+
+.add-expense-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.add-expense-btn:active {
+  background: #b45fd1;
+}
+
+@media screen and (max-width: 500px) {
+  .main-wrapper-date {
+    font-size: 40px;
+  }
+  .add-expense-btn {
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+  .total-monthly-expense__label {
+    font-size: 20px;
+  }
+}

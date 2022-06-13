@@ -1,0 +1,17 @@
+.expense-wrapper {
+  background: linear-gradient(0deg, #3e385c, #232032);
+  width: clamp(30%, 800px, 80%);
+  height: 800px;
+  padding: 30px;
+  overflow: auto;
+}
+
+.expense-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .expense-wrapper {
+    height: auto;
+  }
+}
